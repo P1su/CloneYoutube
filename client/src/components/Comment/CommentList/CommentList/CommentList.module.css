@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.writerSpan {
+  font-size: 14px;
+  color: gray;
+}
+
+.contentSpan {
+  font-size: 16px;
+}

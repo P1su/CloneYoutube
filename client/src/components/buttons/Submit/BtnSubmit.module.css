@@ -1,0 +1,8 @@
+.btnSubmit {
+  width: 10rem;
+  height: 3rem;
+  background-color: #1483f9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

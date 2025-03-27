@@ -1,0 +1,64 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50rem;
+  gap: 1rem;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.videoInputLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23rem;
+  height: 23rem;
+  border: 1px solid black;
+
+  font-size: 64px;
+}
+
+.videoInput {
+  display: none;
+}
+
+.thumbnail {
+  width: 23rem;
+  height: 23rem;
+  object-fit: cover;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  gap: 0.5rem;
+
+  font-size: 16px;
+}
+
+.titleInput {
+  width: 100%;
+  height: 2rem;
+}
+
+.describeTextarea {
+  width: 100%;
+  height: 10rem;
+  resize: none;
+}

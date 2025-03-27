@@ -1,0 +1,8 @@
+.wrapper {
+  width: 7rem;
+  height: 5rem;
+
+  background-color: lightgray;
+  color: gray;
+  border: none;
+}

@@ -1,0 +1,53 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 80vh;
+  gap: 1rem;
+
+  font-size: 12px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+
+  width: 30rem;
+  gap: 1rem;
+}
+
+.loginInput {
+  height: 3rem;
+  padding-left: 1rem;
+  background-color: #e5effc;
+  border: 2px solid #dfe4ea;
+  border-radius: 5px;
+
+  margin-bottom: 1rem;
+}
+
+.optionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rememberContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnSubmit {
+  height: 3rem;
+  background-color: #1483f9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.registerLink {
+  color: #1483f9;
+  text-decoration: none;
+}

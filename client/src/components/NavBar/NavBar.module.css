@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 1rem;
+  font-size: 16px;
+}
+
+.logoImage {
+  width: 50%;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}

@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentForm {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+}
+
+.commentTextarea {
+  width: 80%;
+  resize: none;
+}
+
+.btnComment {
+  width: 20%;
+  height: 100%;
+  cursor: pointer;
+}
